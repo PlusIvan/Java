@@ -1,9 +1,8 @@
 
 import java.nio.charset.Charset;
 import java.util.*;
-import java.util.Scanner; 
+import java.util.Scanner;
 import crypter.Crypt;
-
 public class Main {
 	
 	
