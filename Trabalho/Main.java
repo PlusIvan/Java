@@ -58,8 +58,8 @@ public class Main {
 		Livraria atec = new Livraria("Atec", 5);
 		
 		atec.insereLivro("D7878FKJ45", "Vulcao", "Ivan Moroz", 6, 10, Categoria.BIOLOGY);
-		atec.insereLivro("DFK6767J45", "WW2", "Hitler", 6, 10, Categoria.HISTORY);
-		atec.insereLivro("DFKJ46765", "Bitcoin", "Ivan", 6, 10, Categoria.FINANCE);
+		atec.insereLivro("DFK6767J45", "WW2", "Ivan Morozov", 6, 10, Categoria.HISTORY);
+		atec.insereLivro("DFKJ46765", "Bitcoin", "Navi", 6, 10, Categoria.FINANCE);
 		
 		
 		atec.editaLivro("DFKJ46765", "BITAURUS FTW");
