@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Hanoi",
+            "request": "launch",
+            "mainClass": "Hanoi",
+            "projectName": "Java_1ada9921"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "Java_1ada9921"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Core",
             "request": "launch",
             "mainClass": "Core",
