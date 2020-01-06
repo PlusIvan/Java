@@ -15,17 +15,24 @@ public class Hanoi {
             System.out.println("Min disks 3");
             return;
         }
-            
-
+        for(int x = 1; x <= disks; x++){
+            tower_one.add(disks-x+1);
+        }
 
         int possible_moves = (int) (Math.pow(2, disks) - 1);
         int moves = 0;
 
 while(possible_moves != moves){
-
+    int piece = (int) tower_one.getLast();
+    if(tower_three.size() == 0){
+        tower_three.add(piece);
+        tower_one.removeLast();
+    }
 
 
     
+
+
 }
         
       /*  for(int x = 1; x <= disks; x++){
